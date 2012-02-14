@@ -3,5 +3,7 @@
 
     <string name="hello">Hello World!</string>
     <string name="app_name">AlienCalender</string>
+    <string name="description_checkin">Checkin</string>
+    <string name="description_logo">Demo</string>
 
 </resources>
