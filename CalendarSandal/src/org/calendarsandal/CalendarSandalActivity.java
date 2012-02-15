@@ -28,7 +28,7 @@ public class CalendarSandalActivity extends TabActivity {
 				.setOnClickListener(new ImageButton_title_checkin_Listener());
 
 		Intent map_intent = new Intent(this, MapView.class);
-		Intent calendar_intent = new Intent(this, CalendarView.class);
+		Intent calendar_intent = new Intent(this, CalendarActivity.class);
 
 		tabHost.addTab(tabHost.newTabSpec("Tab_map")
 				.setIndicator("Map", getResources()// set up tab style

@@ -4,6 +4,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical" >
 
+
     <EditText
         android:id="@+id/editText1"
         android:layout_width="match_parent"
@@ -11,5 +12,11 @@
 
         <requestFocus />
     </EditText>
+    
+    <org.calendarsandal.CalendarView  android:id="@+id/calendar"
+	    android:layout_width="match_parent" 
+	    android:layout_height="wrap_content" />
+    
+    
 
 </LinearLayout>
