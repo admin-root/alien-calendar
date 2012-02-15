@@ -1,6 +1,5 @@
 package org.calendarsandal;
 
-import android.app.Activity;
 import android.app.TabActivity;
 import android.content.Intent;
 import android.graphics.Color;
@@ -28,16 +27,14 @@ public class CalendarSandalActivity extends TabActivity {
 		imageButton_add_newevent
 				.setOnClickListener(new ImageButton_title_checkin_Listener());
 
-		Intent map_intent = new Intent(this, MapView.class);
+		Intent map_intent = new Intent(this, MapActivity.class);
 		Intent calendar_intent = new Intent(this, CalendarView.class);
 
-		// add FollowBox tab
 		tabHost.addTab(tabHost.newTabSpec("Tab_map")
 				.setIndicator("Map", getResources()// set up tab style
 						.getDrawable(R.drawable.mapview))
 				.setContent(map_intent));// set up tab content
 
-		// add Me tab
 		tabHost.addTab(tabHost
 				.newTabSpec("Tab_calendar")
 				.setIndicator("Calendar",

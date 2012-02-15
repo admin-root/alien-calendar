@@ -9,6 +9,7 @@ public class MapView extends MapActivity {
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+		setContentView(R.layout.maplayout);
 	}
 
 	@Override

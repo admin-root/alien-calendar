@@ -20,6 +20,11 @@
         </activity>
         <activity
             android:label="@string/app_name"
+            android:name=".MapActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
             android:name=".MapView"
             android:screenOrientation="portrait" >
         </activity>
