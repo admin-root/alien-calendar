@@ -1,11 +1,10 @@
 package org.calendarsandal;
 
-import android.os.Bundle;
-
 import com.google.android.maps.MapActivity;
 
+import android.os.Bundle;
+
 public class MapView extends MapActivity {
-	
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
