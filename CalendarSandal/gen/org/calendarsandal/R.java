@@ -43,33 +43,38 @@ public final class R {
     public static final class drawable {
         public static final int applogo=0x7f020000;
         public static final int background=0x7f020001;
-        public static final int btn_bg_pressed=0x7f020002;
-        public static final int btn_bg_selected=0x7f020003;
-        public static final int calendar_week=0x7f020004;
-        public static final int calendarview=0x7f020005;
-        public static final int checkin_nopress=0x7f020006;
-        public static final int checkinbutton=0x7f020007;
-        public static final int ic_launcher=0x7f020008;
-        public static final int mapview=0x7f020009;
-        public static final int title_button=0x7f02000a;
-        public static final int title_checkin=0x7f02000b;
-        public static final int title_logo=0x7f02000c;
-        public static final int title_logo_default=0x7f02000d;
-        public static final int title_logo_pressed=0x7f02000e;
-        public static final int title_logo_selected=0x7f02000f;
-        public static final int typeb_calendar_today=0x7f020010;
+        public static final int background_backup2=0x7f020002;
+        public static final int btn_bg_pressed=0x7f020003;
+        public static final int btn_bg_selected=0x7f020004;
+        public static final int calendar_week=0x7f020005;
+        public static final int calendarview=0x7f020006;
+        public static final int checkin_nopress=0x7f020007;
+        public static final int checkinbutton=0x7f020008;
+        public static final int ic_launcher=0x7f020009;
+        public static final int mapview=0x7f02000a;
+        public static final int next_month=0x7f02000b;
+        public static final int previous_month=0x7f02000c;
+        public static final int title_button=0x7f02000d;
+        public static final int title_checkin=0x7f02000e;
+        public static final int title_logo=0x7f02000f;
+        public static final int title_logo_default=0x7f020010;
+        public static final int title_logo_pressed=0x7f020011;
+        public static final int title_logo_selected=0x7f020012;
+        public static final int typeb_calendar_today=0x7f020013;
     }
     public static final class id {
-        public static final int SandalMapView=0x7f06000c;
+        public static final int SandalMapView=0x7f06000e;
         public static final int blocks_now=0x7f060007;
         public static final int blocks_ruler=0x7f060006;
-        public static final int calendar=0x7f060009;
+        public static final int calendar=0x7f06000b;
         public static final int dialog_discard_confirm=0x7f060003;
         public static final int dialog_moderator=0x7f060004;
         public static final int dialog_wave=0x7f060005;
         public static final int editText1=0x7f060008;
-        public static final int frameLayout1=0x7f06000a;
-        public static final int imageButton_add_newevent=0x7f06000b;
+        public static final int frameLayout1=0x7f06000c;
+        public static final int imageButton_add_newevent=0x7f06000d;
+        public static final int next_month_button=0x7f06000a;
+        public static final int previous_month_button=0x7f060009;
         public static final int title_container=0x7f060000;
         public static final int title_logo=0x7f060001;
         public static final int title_text=0x7f060002;
@@ -84,6 +89,8 @@ public final class R {
         public static final int description_checkin=0x7f070002;
         public static final int description_logo=0x7f070003;
         public static final int hello=0x7f070000;
+        public static final int next_month=0x7f070005;
+        public static final int previous_month=0x7f070004;
     }
     public static final class style {
         public static final int HomeButton=0x7f080005;

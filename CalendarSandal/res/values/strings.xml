@@ -5,5 +5,7 @@
     <string name="app_name">CalendarSandal</string>
         <string name="description_checkin">Add Event</string>
     <string name="description_logo">Alien Calendar</string>
+    <string name="previous_month">previous_month</string>
+    <string name="next_month">next_month</string>
 
 </resources>
