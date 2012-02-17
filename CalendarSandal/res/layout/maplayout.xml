@@ -4,11 +4,62 @@
     android:layout_height="match_parent"
     android:orientation="vertical" >
 
-    <com.google.android.maps.MapView
-        android:id="@+id/SandalMapView"
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#cdc9c9"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/imageButton0_lifetrack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mylifetrack" />
+
+            <ImageButton
+                android:id="@+id/imageButton1_foodtrack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/myfoodtrack" />
+
+            <ImageButton
+                android:id="@+id/imageButton2_foodtrack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/myfoodtrack" />
+
+            <ImageButton
+                android:id="@+id/imageButton3_foodtrack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/myfoodtrack" />
+
+            <ImageButton
+                android:id="@+id/imageButton4_foodtrack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/myfoodtrack" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <FrameLayout
+        android:id="@+id/frameLayout1"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:apiKey="0tR97RRvUlytgXZArsjiCS_ohj5iCLqTdNaMrfQ"
-        android:clickable="true" />
+        android:layout_height="wrap_content"
+        android:layout_weight="1.00" >
+
+        <com.google.android.maps.MapView
+            android:id="@+id/SandalMapView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:apiKey="0tR97RRvUlytgXZArsjiCS_ohj5iCLqTdNaMrfQ"
+            android:clickable="true" />
+    </FrameLayout>
 
 </LinearLayout>
