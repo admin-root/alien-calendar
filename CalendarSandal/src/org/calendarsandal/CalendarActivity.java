@@ -6,7 +6,6 @@ import org.calendarsandal.R;
 
 import org.calendarsandal.CalendarActivity;
 import org.calendarsandal.Cell;
-import org.calendarsandal.CalendarSandalActivity.ImageButton_title_checkin_Listener;
 
 import android.app.Activity;
 import android.content.Intent;

@@ -25,9 +25,9 @@ public class CalendarSandalActivity extends TabActivity {
 
 		imageButton_add_newevent = (ImageButton) findViewById(R.id.imageButton_add_newevent);
 		imageButton_add_newevent
-				.setOnClickListener(new ImageButton_title_checkin_Listener());
+				.setOnClickListener(new ImageButton_addnewevent_Listener());
 
-		Intent map_intent = new Intent(this, MapView.class);
+		Intent map_intent = new Intent(this, MapSandalActivity.class);
 		Intent calendar_intent = new Intent(this, CalendarActivity.class);
 
 		tabHost.addTab(tabHost.newTabSpec("Tab_map")
@@ -44,7 +44,7 @@ public class CalendarSandalActivity extends TabActivity {
 		tabHost.setCurrentTab(1);
     }
     
-	class ImageButton_title_checkin_Listener implements OnClickListener {
+	class ImageButton_addnewevent_Listener implements OnClickListener {
 		public void onClick(View v) {
 			Intent intent = new Intent();
 			intent.setClass(CalendarSandalActivity.this, SubjectDefine.class);//
