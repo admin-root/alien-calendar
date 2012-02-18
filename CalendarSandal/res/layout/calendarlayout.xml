@@ -3,30 +3,41 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical" >
-    
-    <LinearLayout 
+
+
+    <EditText
+        android:id="@+id/editText1"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-        
-      <ImageButton
-            android:id="@+id/previous_month_button"
-            style="@style/TitleBarAction"
+        android:layout_height="wrap_content" >
+
+        <requestFocus />
+    </EditText>
+    
+  
+            <CalendarView
+        android:id="@+id/calendarView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+<!--       <ImageButton
+            
+            
             android:contentDescription="@string/previous_month"
-            android:src="@drawable/previous_month"/>
+            android:src="@drawable/previous_month"/> 
       
             <ImageButton
-            android:id="@+id/next_month_button"
-            style="@style/TitleBarAction"
+            
+            
             android:contentDescription="@string/next_month"
-            android:src="@drawable/next_month"/>
+            android:src="@drawable/next_month"/> -->
         
-    </LinearLayout>"
-    
-    <org.calendarsandal.CalendarView  android:id="@+id/calendar"
+<!--     <org.calendarsandal.CalendarView  android:id="@+id/calendar"
 	    android:layout_width="match_parent" 
-	    android:layout_height="wrap_content" />
-    
+	    android:layout_height="wrap_content" /> -->
+	    
+<!--         <CalendarView
+        android:id="@+id/calendarView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" /> -->
     
 
 </LinearLayout>

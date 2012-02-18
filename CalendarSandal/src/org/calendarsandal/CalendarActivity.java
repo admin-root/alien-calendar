@@ -35,14 +35,14 @@ public class CalendarActivity extends Activity implements CalendarView.OnCellTou
 		requestWindowFeature(Window.FEATURE_NO_TITLE);
 		setContentView(R.layout.calendarlayout);
 		
-        mView = (CalendarView)findViewById(R.id.calendar);
-        mView.setOnCellTouchListener(this);
+/*        mView = (CalendarView)findViewById(R.id.calendar);
+        mView.setOnCellTouchListener(this);*/
         
-        previous_month_button = (ImageButton) findViewById(R.id.previous_month_button);
-        this.previous_month_button.setOnClickListener(new Previous_Month_Listener());
+/*        previous_month_button = (ImageButton) findViewById(R.id.previous_month_button);
+        this.previous_month_button.setOnClickListener(new Previous_Month_Listener());*/
         
-        this.next_month_button=(ImageButton)this.findViewById(R.id.next_month_button);
-        this.next_month_button.setOnClickListener(new Next_Month_Listener());
+/*        this.next_month_button=(ImageButton)this.findViewById(R.id.next_month_button);
+        this.next_month_button.setOnClickListener(new Next_Month_Listener());*/
         
 /*        imageButton_add_newevent
 		.setOnClickListener(new ImageButton_title_checkin_Listener());*/
